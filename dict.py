@@ -8,4 +8,4 @@ word = input("Enter the word that you don't understand!  (All capital!): ")
 if word in meme_dict.keys():
     print(meme_dict[word])
 else:
-    print("no word in dictionary!")
+    print("no word in dictionary! Please add the new word in dictionary")
